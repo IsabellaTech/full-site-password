@@ -32,7 +32,8 @@ Q: How do I add custom logos and background images to the password screen?
 A: To add custom logos and background images to the password screen, upload the desired images using the provided fields in the plugin's options. You can then adjust the image sizes and positions as needed.
 
 == Screenshots ==
-[Include screenshots of your plugin in action, if applicable.]
+1. Screenshots of the Website with the Password form activated
+2. Screenshots of all the plugin options in the WordPress backoffice
 
 == Changelog ==
 = 1.0 =
@@ -47,11 +48,5 @@ Plugin created by Hussein Lababidi. For more information, visit [http://isabella
 == Support ==
 For support or inquiries, please contact us at [http://isabellatech.com/contact](http://isabellatech.com/contact).
 
-== Contribute ==
-If you would like to contribute to the development of this plugin, please visit the GitHub repository: [https://github.com/username/repo](https://github.com/username/repo)
-
 == License ==
-This plugin is released under the GPLv2 or later license.
-
-== Disclaimer ==
-[Include any disclaimers or legal notices relevant to your plugin.]
+This plugin is released under the GPLv2 license.
