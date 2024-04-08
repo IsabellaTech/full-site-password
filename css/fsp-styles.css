@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+}
+
+.fsp-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.fsp-content {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  flex: 1;
+}
+
+.fsp-content-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+  color: var(--text-color);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+}
+
+input[type="password"] {
+  padding: 0.5rem;
+  font-size: 1em;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: var(--bg-color);
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.fsp-header {
+  background-color: var(--bg-color);
+  height: 65px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fsp-footer {
+  background-color: var(--bg-color);
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fsp-form-wrapper {
+  position: relative;
+}
+
+.fsp-form {
+  display: flex;
+  gap: 10px;
+}
+
+.fsp-input {
+  display: flex;
+  border-radius: 4px;
+  width: fit-content;
+  overflow: hidden;
+}
+
+.fsp-label {
+  background: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  color: var(--text-color);
+}
+
+.fsp-margin {
+  margin-bottom: 40px;
+}
+
+.fsp-error-message {
+  color: #d04a4a;
+  position: absolute;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: bold;
+}

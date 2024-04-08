@@ -1,0 +1,63 @@
+div.show_hide_password {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.password-field {
+  position: relative;
+  color: #2271b1;
+}
+
+.cf-container .cf-html.cf-field.fsp-badge-wrapper {
+  padding: 15px;
+  border-width: 0 0 0 0;
+  position: relative;
+}
+.fsp-badge {
+  background-color: #ff4545;
+  color: #fff;
+  padding: 5px;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  gap: 5px;
+}
+
+.fsp-badge.active {
+  background-color: #007c00;
+}
+
+.fsp-badge .dashicons {
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+}
+
+.cf-container .cf-field.fsp-image-field {
+  flex: none;
+  flex-basis: fit-content !important;
+}
+
+.fsp-badge .dashicons.dashicons-unlock {
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: fliph;
+  filter: fliph;
+}
+
+/* button.button.button-primary.show_hide_password {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+} */
